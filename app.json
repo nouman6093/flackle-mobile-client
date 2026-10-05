@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "name": "Flackle Mobile Client",
+    "slug": "flackle-mobile-client",
+    "scheme": "flackleapp",
+    "platforms": ["ios", "android"],
+    "android": {
+      "package": "com.noumanhameed.flacklemobile"
+    },
+    "ios": {
+      "bundleIdentifier": "com.noumanhameed.flacklemobile"
+    },
+    "plugins": ["expo-router"],
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"]
+  }
+}
